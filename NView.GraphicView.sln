@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NView.GraphicView", "NView.GraphicView\NView.GraphicView.csproj", "{30EA21CA-8390-455A-BEE1-6566975E296E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NView.GraphicView.Mac", "NView.GraphicView.Mac\NView.GraphicView.Mac.csproj", "{6F9F0DAF-56E7-440C-B014-AD09E65C0E67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30EA21CA-8390-455A-BEE1-6566975E296E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EA21CA-8390-455A-BEE1-6566975E296E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EA21CA-8390-455A-BEE1-6566975E296E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EA21CA-8390-455A-BEE1-6566975E296E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9F0DAF-56E7-440C-B014-AD09E65C0E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9F0DAF-56E7-440C-B014-AD09E65C0E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9F0DAF-56E7-440C-B014-AD09E65C0E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9F0DAF-56E7-440C-B014-AD09E65C0E67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
