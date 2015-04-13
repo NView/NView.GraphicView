@@ -15,9 +15,9 @@ namespace NView.GraphicView
 		#region IView implementation
 		public IDisposable BindToNative (object nativeView)
 		{
-			var view = PlatformHelpers.GetView<NativeGraphicView> (nativeView);
+			var view = ViewHelpers.GetView<NativeGraphicView> (nativeView);
 			view.GraphicView = this;
-			return PlatformHelpers.CreateDisposable (() => {
+			return new DisposeAction (() => {
 				if (view.GraphicView == this)
 					view.GraphicView = null;
 			});
