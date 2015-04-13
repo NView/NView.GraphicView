@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NView.GraphicView", "NView.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NView.GraphicView.Mac", "NView.GraphicView.Mac\NView.GraphicView.Mac.csproj", "{6F9F0DAF-56E7-440C-B014-AD09E65C0E67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NView.GraphicView.iOS", "NView.GraphicView.iOS\NView.GraphicView.iOS.csproj", "{ECF948AD-7BE0-4B65-9BDF-E7B500AE318F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NView.GraphicView.Android", "NView.GraphicView.Android\NView.GraphicView.Android.csproj", "{FAC8C1C4-6F1B-4740-B59E-C59727B682FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +23,13 @@ Global
 		{6F9F0DAF-56E7-440C-B014-AD09E65C0E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F9F0DAF-56E7-440C-B014-AD09E65C0E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F9F0DAF-56E7-440C-B014-AD09E65C0E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF948AD-7BE0-4B65-9BDF-E7B500AE318F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF948AD-7BE0-4B65-9BDF-E7B500AE318F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF948AD-7BE0-4B65-9BDF-E7B500AE318F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF948AD-7BE0-4B65-9BDF-E7B500AE318F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC8C1C4-6F1B-4740-B59E-C59727B682FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC8C1C4-6F1B-4740-B59E-C59727B682FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC8C1C4-6F1B-4740-B59E-C59727B682FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC8C1C4-6F1B-4740-B59E-C59727B682FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -41,6 +41,8 @@
     <CreatePackage>false</CreatePackage>
     <EnableCodeSigning>false</EnableCodeSigning>
     <EnablePackageSigning>false</EnablePackageSigning>
+    <DebugSymbols>true</DebugSymbols>
+    <DocumentationFile>bin\Release\NView.GraphicView.Mac.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,10 +55,10 @@
       <HintPath>..\packages\NGraphics.0.2.2\lib\Xamarin.Mac20\NGraphics.Mac.dll</HintPath>
     </Reference>
     <Reference Include="NView.ViewHelpers.Mac">
-      <HintPath>..\packages\NView.1.1.2\lib\Xamarin.Mac20\NView.ViewHelpers.dll</HintPath>
+      <HintPath>..\packages\NView.1.1.3\lib\Xamarin.Mac20\NView.ViewHelpers.dll</HintPath>
     </Reference>
     <Reference Include="NView">
-      <HintPath>..\packages\NView.1.1.2\lib\Xamarin.Mac20\NView.dll</HintPath>
+      <HintPath>..\packages\NView.1.1.3\lib\Xamarin.Mac20\NView.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
