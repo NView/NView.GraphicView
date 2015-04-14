@@ -6,9 +6,9 @@
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{ECF948AD-7BE0-4B65-9BDF-E7B500AE318F}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>NView.GraphicView.iOS</RootNamespace>
+    <RootNamespace>NView.GraphicView</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>NView.GraphicView.iOS</AssemblyName>
+    <AssemblyName>NView.GraphicView</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -19,6 +19,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
+    <DocumentationFile>bin\Debug\NView.GraphicView.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -28,7 +29,7 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <DebugSymbols>true</DebugSymbols>
-    <DocumentationFile>bin\Release\NView.GraphicView.iOS.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\NView.GraphicView.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
