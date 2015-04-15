@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NView.GraphicView.iOS", "NV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NView.GraphicView.Android", "NView.GraphicView.Android\NView.GraphicView.Android.csproj", "{FAC8C1C4-6F1B-4740-B59E-C59727B682FE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A85CE35-008E-4127-AAA1-45412647C855}"
+	ProjectSection(SolutionItems) = preProject
+		NView.GraphicView.nuspec = NView.GraphicView.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +36,7 @@ Global
 		{FAC8C1C4-6F1B-4740-B59E-C59727B682FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAC8C1C4-6F1B-4740-B59E-C59727B682FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAC8C1C4-6F1B-4740-B59E-C59727B682FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
