@@ -4,9 +4,11 @@ using Android.Views;
 
 using NGraphics;
 using Android.Content;
+using Android.Runtime;
 
 namespace NView.GraphicView
 {
+	[Preserve]
 	public class GraphicView : IView
 	{
 		public virtual void Draw (ICanvas canvas, Rect dirtyRect)

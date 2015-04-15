@@ -3,9 +3,11 @@
 using UIKit;
 
 using NGraphics;
+using Foundation;
 
 namespace NView.GraphicView
 {
+	[Preserve]
 	public class GraphicView : IView
 	{
 		public virtual void Draw (ICanvas canvas, Rect dirtyRect)
