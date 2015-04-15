@@ -6,9 +6,9 @@
     <ProjectTypeGuids>{A3F8F2AB-B479-4A4A-A458-A89E7DC349F1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{6F9F0DAF-56E7-440C-B014-AD09E65C0E67}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>NView.GraphicView.Mac</RootNamespace>
+    <RootNamespace>NView.GraphicView</RootNamespace>
     <MonoMacResourcePrefix>Resources</MonoMacResourcePrefix>
-    <AssemblyName>NView.GraphicView.Mac</AssemblyName>
+    <AssemblyName>NView.GraphicView</AssemblyName>
     <TargetFrameworkIdentifier>Xamarin.Mac</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
   </PropertyGroup>
@@ -27,6 +27,7 @@
     <CreatePackage>false</CreatePackage>
     <EnableCodeSigning>false</EnableCodeSigning>
     <EnablePackageSigning>false</EnablePackageSigning>
+    <DocumentationFile>bin\Debug\NView.GraphicView.Mac.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -42,7 +43,7 @@
     <EnableCodeSigning>false</EnableCodeSigning>
     <EnablePackageSigning>false</EnablePackageSigning>
     <DebugSymbols>true</DebugSymbols>
-    <DocumentationFile>bin\Release\NView.GraphicView.Mac.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\NView.GraphicView.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
